@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Procedures/BookDrop.CreateAuthor.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Procedures/BookDrop.CreateBookCopy.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Procedures/BookDrop.CreateBookName.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Procedures/BookDrop.CreatePerson.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Procedures/BookDrop.CreateReview.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Procedures/BookDrop.FetchAuthor.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Procedures/BookDrop.FetchBookName.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Procedures/BookDrop.FetchPerson.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Procedures/BookDrop.RetrievePersons.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Procedures/Rankings/BookDrop.CityRanking.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Procedures/Rankings/BookDrop.ScoreRanking.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Procedures/Rankings/BookDrop.SwapRanking.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Procedures/Rankings/BookDrop.UserRanking.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Schemas/BookDrop.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Tables/BookDrop.Author.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Tables/BookDrop.BookCopy.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Tables/BookDrop.BookName.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Tables/BookDrop.Person.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Tables/BookDrop.Review.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/src/book_drop/sql/Tables/DropTables.sql" dialect="TSQL" />
+  </component>
+</project>

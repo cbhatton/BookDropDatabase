@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS BookDrop.Person;
+DROP TABLE IF EXISTS BookDrop.Review;
+DROP TABLE IF EXISTS BookDrop.BookCopy;
+DROP TABLE IF EXISTS BookDrop.BookName;
+DROP TABLE IF EXISTS BookDrop.Author;
+

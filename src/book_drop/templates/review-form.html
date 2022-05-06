@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+
+{% block title %}{{ form.name.data }}{% endblock %}
+
+{% block content %}
+
+<form action="/review-form/{{ id }}/" method="POST">
+    <div class="form-row">
+        <div class="col form-group">
+            {{ form.user_name.label }}
+            {% if form.user_name.errors %}
+                {{ form.user_name(class_="form-control is-invalid") }}
+                {% for error in form.name.errors %}
+                    <span class="invalid-feedback">{{ error }}</span>
+                {% endfor %}
+            {% else %}
+                {{ form.user_name(class_="form-control") }}
+            {% endif %}
+        </div>
+    </div>
+
+     <div class="form-row">
+       <div class="col form-group">
+            {{ form.star_rating.label }}
+            {% if form.star_rating.errors %}
+                {{ form.star_rating(class_="form-control is-invalid") }}
+                {% for error in form.price.errors %}
+                    <span class="invalid-feedback">{{ error }}</span>
+                {% endfor %}
+            {% else %}
+                {{ form.star_rating(class_="form-control") }}
+            {% endif %}
+        </div>
+     </div>
+
+
+     <div class="form-row">
+       <div class="col form-group">
+            {{ form.location.label }}
+            {% if form.location.errors %}
+                {{ form.location(class_="form-control is-invalid") }}
+                {% for error in form.price.errors %}
+                    <span class="invalid-feedback">{{ error }}</span>
+                {% endfor %}
+            {% else %}
+                {{ form.location(class_="form-control") }}
+            {% endif %}
+        </div>
+     </div>
+
+    <button type="submit" class="btn btn-primary">
+        Submit
+    </button>
+</form>
+
+{% endblock %}
